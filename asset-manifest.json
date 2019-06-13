@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/currency-converter-app/static/css/main.b8bf4246.chunk.css",
+    "main.js": "/currency-converter-app/static/js/main.c86d5ad1.chunk.js",
+    "main.js.map": "/currency-converter-app/static/js/main.c86d5ad1.chunk.js.map",
+    "runtime~main.js": "/currency-converter-app/static/js/runtime~main.de6384ee.js",
+    "runtime~main.js.map": "/currency-converter-app/static/js/runtime~main.de6384ee.js.map",
+    "static/js/2.2b0a35d4.chunk.js": "/currency-converter-app/static/js/2.2b0a35d4.chunk.js",
+    "static/js/2.2b0a35d4.chunk.js.map": "/currency-converter-app/static/js/2.2b0a35d4.chunk.js.map",
+    "index.html": "/currency-converter-app/index.html",
+    "precache-manifest.311700adba55058cbb35bf1aad0e040e.js": "/currency-converter-app/precache-manifest.311700adba55058cbb35bf1aad0e040e.js",
+    "service-worker.js": "/currency-converter-app/service-worker.js",
+    "static/css/main.b8bf4246.chunk.css.map": "/currency-converter-app/static/css/main.b8bf4246.chunk.css.map",
+    "static/media/IMDB.svg": "/currency-converter-app/static/media/IMDB.8ba3391e.svg",
+    "static/media/React.svg": "/currency-converter-app/static/media/React.9a28da9f.svg",
+    "static/media/TheMovieDB.svg": "/currency-converter-app/static/media/TheMovieDB.02a9430b.svg"
+  }
+}
