@@ -1,0 +1,64 @@
+.coverDiv {
+	position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.6;
+}
+
+.upperCoverDiv {
+	position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+} 
+
+.MovieWrapper {
+  position: absolute;
+  top: 12%;
+  z-index: 4;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: white;
+  opacity: 1;
+
+}
+
+@media screen and (min-width: 1000px) {
+	.MovieWrapper {left: 15%; width: 70%;}
+}
+
+@media screen and (min-width: 1150px) {
+	.MovieWrapper {left: 20%; width: 60%;}
+}
+
+.moviePoster {float: left;}
+
+.movieDescription {	margin-left: 30px;}
+
+.descriptionParam {
+	font-weight: bold; margin-right: 10px;
+}	
+
+.IMDb_button{	
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.exitBtn {
+	text-align: end;
+	margin-right: 5%;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 1.4em;
+	cursor: pointer;
+}

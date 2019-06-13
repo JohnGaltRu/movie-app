@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar/NavBar.jsx';
+import SearchBar from './components/Main/SearchBar/SearchBar.jsx';
+import MoviesContainer from './components/Main/MoviesContainer/MoviesContainer.jsx';
+import ModalMovieContainer from './components/ModalMovieContainer/ModalMovieContainer.jsx';
+import  PortalForModalMovieContainer from './components/ModalMovieContainer/PortalForModal.jsx';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+    	<>
+    		<NavBar/>
+        	<SearchBar/>
+			<MoviesContainer/>
+			<PortalForModalMovieContainer>
+            <ModalMovieContainer/>
+			</PortalForModalMovieContainer>	
+        </>
+    );
 }
 
 export default App;
+
+

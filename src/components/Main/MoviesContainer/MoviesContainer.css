@@ -1,0 +1,36 @@
+.movies-container-main{
+ 	display: flex;
+	flex-direction: row;
+ 	justify-content: space-around;
+ 	flex-wrap: wrap;
+}
+
+.movie-card{
+ 	width: 23%;
+ 	color: #F2F2F2;
+ 	margin-bottom: 20px;
+ 	font-size: 1em;
+}
+
+.moviePoster{ cursor: pointer; }
+
+.showDetailsBtn{
+	background-color: transparent;
+	color: #F2F2F2;
+	font-family: inherit;
+	padding-left: 0px;
+	border: none;
+	font-size: 1em;
+	font-weight: 700;
+	cursor: pointer;
+	outline: none;
+}
+
+.showDetailsBtn:hover{
+	font-size: 1.2em;
+}
+
+
+	border-top: 2px solid rgba(255, 255, 255, 0.3);
+	border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+
