@@ -36,10 +36,6 @@ class MoviesContainer extends Component {
     this.props.showFilmDetailsAction(
       `${apiURL}/movie/${target.name}${apiKey}&append_to_response=videos,images`
     );
-
-    //fetch(`https://api.themoviedb.org/3/movie/157336?api_key=2973b5ea282e5fd4b5f250885f41a7a3&append_to_response=videos,images`)
-    //.then(res => res.json())
-    //.then(res => console.log(res))
   }
 
   render() {
